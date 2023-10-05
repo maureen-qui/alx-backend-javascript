@@ -1,0 +1,11 @@
+{
+  "name": "0x00-ES6_basic",
+  "version": "0.0.0",
+  "description": "Curriculum Short Specializations Average: 0.0% You have a captain's log due before 2023-10-01 (in 2 days)! Log it now! We're moving to Discord! In a few days, we will be leaving Slack in favor of Discord 🎉 Click here for more information 0x00. ES6 Basics JavaScript ES6  By: Johann Kerbrat, Engineering Manager at Uber Works  Weight: 1  Ongoing second chance project - started Sep 25, 2023 6:00 AM, must end by Sep 30, 2023 6:00 AM  An auto review will be launched at the deadline In a nutshell… Auto QA review: 0.0/41 mandatory & 0.0/4 optional Altogether:  0.0% Mandatory: 0.0% Optional: 0.0% Calculation:  0.0% + (0.0% * 0.0%)  == 0.0% Concepts For this project, we expect you to look at these concepts:",
+  "main": "0-constants.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
