@@ -65,3 +65,42 @@ function createDirector(
 const director1: Directors = createDirector('John', 'Doe', true, 'London', 17);
 
 console.log(director1);
+
+// Interface to describe the constructor of the StudentClass
+interface StudentClassConstructor {
+  new (firstName: string, lastName: string): StudentClass;
+}
+
+// Interface to describe the StudentClass methods and properties
+interface StudentClass {
+  workOnHomework(): string;
+  displayName(): string;
+}
+
+// StudentClass implementation
+class StudentClass implements StudentClass {
+  // Properties
+  readonly firstName: string;
+  readonly lastName: string;
+
+  // Constructor
+  constructor(firstName: string, lastName: string) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  // Methods
+  workOnHomework(): string {
+    return 'Currently working';
+  }
+
+  displayName(): string {
+    return this.firstName;
+  }
+}
+
+// Example usage
+const studentInstance: StudentClass = new StudentClass('John', 'Doe');
+
+console.log(studentInstance.workOnHomework()); // Should print 'Currently working'
+console.log(studentInstance.displayName()); // Should print 'John'
