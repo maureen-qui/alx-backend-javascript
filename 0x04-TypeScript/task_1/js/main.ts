@@ -34,3 +34,34 @@ const teacher3: Teacher = createTeacher('John', 'Doe', false, 'London', {
 });
 
 console.log(teacher3);
+
+
+// New code based on your request
+interface Directors extends Teacher {
+  numberOfReports: number;
+}
+
+function createDirector(
+  firstName: string,
+  lastName: string,
+  fullTimeEmployee: boolean,
+  location: string,
+  numberOfReports: number,
+  additionalAttributes?: { [key: string]: any }
+): Directors {
+  const director: Directors = {
+    firstName,
+    lastName,
+    fullTimeEmployee,
+    location,
+    numberOfReports,
+    ...additionalAttributes,
+  };
+
+  return director;
+}
+
+// Example usage for the new code
+const director1: Directors = createDirector('John', 'Doe', true, 'London', 17);
+
+console.log(director1);
