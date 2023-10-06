@@ -1,0 +1,15 @@
+// task_3/package.json
+
+ {
+   "name": "alx-backend-javascript",
+   "version": "1.0.0",
+   "description": "TypeScript project",
+   "scripts": {
+     "build": "webpack"
+   },
+   "devDependencies": {
+     "webpack": "^5.0.0",
+     "ts-loader": "^8.0.0",
+     "typesript": "^4.0.0"
+   } 
+}
